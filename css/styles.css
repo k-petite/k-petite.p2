@@ -383,6 +383,7 @@ header .main-nav a:hover {
     width:55%;
     font-size: 1.5em;
     text-align:left;
+    padding-right:1em;
   }
 
   .profile .secondary{
