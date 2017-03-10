@@ -1,7 +1,7 @@
 # k-petite.p2
 10.03.17
 
-Was tested and showed smooth look on:
+Site was tested and showed smooth look on:
 
 Windows 8.1 ie 11
 Windows 8.1 firefox 30
