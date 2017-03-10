@@ -321,27 +321,20 @@ header .main-nav a:hover {
 	}
 
 
+.footer-nav li:nth-of-type(1),
+.footer-nav li:nth-of-type(2),
+.footer-nav li:nth-of-type(3),
+.footer-nav li:nth-of-type(4){
+  display:none;
+} /* Hides extra nav links in mobile view */
+
 /* ================================= 
                 Media Queries
 ==================================== */
 
-/* --- Mobile view --- */
-
-@media(max-width: 767px){
-
-  .footer-nav li:nth-of-type(1),
-  .footer-nav li:nth-of-type(2),
-  .footer-nav li:nth-of-type(3),
-  .footer-nav li:nth-of-type(4){
-    display:none;
-  } /* Hides extra nav links in mobile view */
-
-}
-
 /* --- Tablet view --- */
 
 @media(min-width: 768px) {
-
 
 
 /* ===================
@@ -523,6 +516,13 @@ header .main-nav a:hover {
     width:100%;
   }
 
+  .footer-nav li:nth-of-type(1),
+  .footer-nav li:nth-of-type(2),
+  .footer-nav li:nth-of-type(3),
+  .footer-nav li:nth-of-type(4){
+    display:initial;
+  } /* Shows extra nav links in mobile view */
+}
 /* --- Desktop view --- */  
 
 @media(min-width: 1024px) {
